@@ -23,3 +23,8 @@ Navigate to download directory (assume correct java version is installed)
 java -jar WorkRateCalculator.jar
 
 Source code is in src.zip
+The code is divided into four modules:
+WorkDay.java: This is a class encapsulating a WorkDay (a series of 'WorkPeriod's)
+WorkPeriod.java: Class representing a period of the day which is worked at the same pay rate
+WorkRateCalculator.java: Contains the main[] method and an interface implementation
+WorkRateUI.java: An Interface representing the abstracted input and output methods for the application
